@@ -1,0 +1,2 @@
+# This file is symlinked to ~/.config/git/attributes
+*.ipynb filter=stripoutput
