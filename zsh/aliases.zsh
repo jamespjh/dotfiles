@@ -168,3 +168,7 @@ alias dbm='spring rake db:migrate'
 alias dbmr='spring rake db:migrate:redo'
 alias dbmd='spring rake db:migrate:down'
 alias dbmu='spring rake db:migrate:up'
+
+# Encodings
+
+alias showunicode="pcregrep --color='auto' -n '[^\x00-\x7F]'"
